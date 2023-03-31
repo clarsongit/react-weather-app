@@ -11,13 +11,18 @@ function App() {
         <div className="footer">
           <footer>
             This project was coded by{" "}
-            <a href="https://clarson.netlify.app/" target="_blank">
+            <a
+              href="https://clarson.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Chloe Larson
             </a>{" "}
             and is{" "}
             <a
               href="https://github.com/clarsongit/react-weather-app"
               target="_blank"
+              rel="noreferrer"
             >
               open-sourced on Github.
             </a>
