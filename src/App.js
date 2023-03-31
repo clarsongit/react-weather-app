@@ -10,13 +10,17 @@ function App() {
         <Weather defaultCity="New York" />
         <div className="footer">
           <footer>
+            This project was coded by{" "}
+            <a href="https://clarson.netlify.app/" target="_blank">
+              Chloe Larson
+            </a>{" "}
+            and is{" "}
             <a
               href="https://github.com/clarsongit/react-weather-app"
               target="_blank"
             >
-              Open-source code
-            </a>{" "}
-            by Chloe Larson
+              open-sourced on Github.
+            </a>
           </footer>
         </div>
       </div>
