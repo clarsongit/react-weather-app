@@ -14,7 +14,7 @@ function App() {
             <a
               href="https://clarson.netlify.app/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Chloe Larson
             </a>{" "}
@@ -22,7 +22,7 @@ function App() {
             <a
               href="https://github.com/clarsongit/react-weather-app"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               open-sourced on Github.
             </a>
