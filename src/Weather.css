@@ -32,11 +32,7 @@ body {
   font-weight: 100;
 }
 
-.Weather .row {
-  max-height: 80px;
-}
-
-.Weather img {
+.Weather .WeatherInfo img {
   height: 92px;
   display: inline-block;
   margin-right: 10px;
