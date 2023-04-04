@@ -7,7 +7,6 @@ import WeatherForecastDay from "./WeatherForecastDay";
 export default function WeatherForecast(props) {
   const [loaded, setLoaded] = useState(false);
   const [forecastData, setForecastData] = useState(null);
-  const [iconUrl, setIconUrl] = useState(null);
 
   useEffect(() => {
     setLoaded(false);
@@ -16,7 +15,6 @@ export default function WeatherForecast(props) {
   function handleResponse(response) {
     setForecastData(response.data.daily);
     setLoaded(true);
-    setIconUrl(`http://openweathermap.org/img/wn/01d@2x.png`);
   }
 
   if (loaded) {
